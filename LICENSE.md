@@ -1,0 +1,1 @@
+Copyright Nikolai Mallett, 2016. Source & copies may be redistributed, unmodified, so long as this notice of copyright is included, unmodified, with the redistribution. Modification is STRICTLY PROHIBITED.
