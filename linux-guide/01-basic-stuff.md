@@ -29,7 +29,11 @@ A very spartan yet functional and 'suck it up, champ'-style tutorial for `vim` i
 A solid chunk of the electronic notes that I'm keeping for my classes (as well as this guide) was/were written using `vim`, `tmux`, and a language called Markdown (which is really fun and kinda like a note-taking style or shorthand... of sorts.).
 
 ### Web Browsing
-In progress still. I *technically* know how to browse the Web from the command line but it's weird and hard to describe so I'll just fill this out later. There's also command line email clients available but I just figured out how to use mine so I'll hold off on that too.
+* `wget` - `wget` is normally used for downloading files from the internet. You can download pretty much anything by doing `wget [url]`, and it'll save it to your current directory.
+There's another tool called `curl` that does, at a basic level, the same thing, but `curl` has a much more complicated system of options and commands that you need to use to do essentially the same thing. Once you get the options figured out, though, you can do a lot more with `curl`.
+* `links` - `links` is a command line browser that can open HTML files as well. Usage is normally `links [filename / website]`, and it'll load the page. Most complex pages don't render well in `links`, but you can use Google and most other relatively simple sites. I'd reccommend finding these through trial and error. 
+To navigate, use `Page Up` and `Page Down` or the arrow keys, `Right Arrow` to follow a link, and `Left Arrow` to go back a page. `q` is quit.  I'm not sure yet whether there's tabs in `links` but I'll figure that out eventually. 
+There's another browser that `links` is based off of called `lynx`, and I haven't figured out the differences between the two quite yet.
 
 ---
 ## Common GUI Tools
