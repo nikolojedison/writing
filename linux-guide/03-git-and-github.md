@@ -20,7 +20,7 @@ Like `git push`, you can change the branch you're pulling from by using `git pul
 
 ## My workflow with git and GitHub
 1. Make the repository on GitHub, with the appropriate license and README - pretty self-explanatory. This is pretty easy to do.
-2. Clone the repository to the machines that I'll be editing files on & working in the repository with - normally, I'll do this by clicking the green "Clone or Download" button on GitHub, copying the link that ends in `.git`, and pasting it after `git clone` in a terminal, i.e. `git clone [https://github.com/nikolojedison/writing.git](https://github.com/nikolojedison/writing.git)`.
+2. Clone the repository to the machines that I'll be editing files on & working in the repository with - normally, I'll do this by clicking the green "Clone or Download" button on GitHub, copying the link that ends in `.git`, and pasting it after `git clone` in a terminal, i.e. `git clone https://github.com/nikolojedison/writing.git`.
 3. Set up any directories and files that I want to start off with, then commit them - note that `git` will not keep track of empty directories, so you'll need to either place a file in them for `git` to keep track of them or you'll just wait until you need a directory for a file, then make it & put the file in it.
 4. Make a commit for the initial setup and push it back to GitHub (`git add -A`, `git commit -m "Basic setup stuff"`, `git push origin master`) - I actually find myself waiting until this step to clone the repository to other devices, mostly because it's easier to clone a repository from scrach than pull the files and folders after I've set them up, committed them, and pushed them
 5. Do any editing that I want in the editors that I require (`vim`, `libreoffice`, etc.)
