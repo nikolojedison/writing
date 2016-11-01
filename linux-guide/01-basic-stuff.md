@@ -7,6 +7,7 @@ Some quick things before we get started that Linux does differently:
 * forward slash ( / ) instead of back slash ( \ ) in file paths - this one's especially important as the back slash is used to provide special characters, like the newline, or in other situations.
 * *directories* instead of *folders* - This is mostly just a change in terminology. There might be some more complex stuff behind the scenes to differentiate the two, but I haven't learned that yet.
 * `Tab` when typing a command, filename, or command option to auto-complete the command, filename, or command option in question. Depending on what you're using, if there's multiple options (`filename.png` and `filename2.png`), repeated presses of `Tab` will reveal the options for you. 
+* Using `Ctrl+Alt+F1` through `Ctrl+Alt+F6` will move you to a window consisting of exclusively a terminal - which is really useful for distraction-free writing
 * If for any reason you need to stop a program and it isn't responding, `Ctrl+c` will stop it for you. You probably shouldn't use `Ctrl+c` otherwise, though.
 
 ## Common Terminal Tools
@@ -20,6 +21,8 @@ In order to move a directory back (`/home/nik/Documents/` to `/home/nik/`), type
 * `tmux` - stands for **t**erminal **mu**ltiple**x**er. Essentially takes one terminal window and allows you to have multiple terminals inside it, in a variety of arrangements. If you wanna learn more about it, I would recommend googling it as it's too complex to go in depth with here. 
 `tmux` uses a special shortcut for you to tell it that it's time to run a command - by default, `Ctrl+b` (when I describe `tmux` commands from here forward, I'll assume that you're entering `Ctrl+b` quickly & with a little delay before executing the shortcut that I describe) . 
 Basic commands (after starting `tmux` by typing `tmux` at the command line) include `Shift+'` to split the terminal window in half vertically and open a new pane, `%` to split the terminal window in half horizontally and open a new pane, `exit` to completely close `tmux`, `tmux detach` to "detach" from a tmux session (and leave it for later - doesn't stay if you reboot your computer entirely), and `tmux attach` to attach to an already existing session.
+* `mc` - stands for **M**idnight **C**ommander. `mc` is a file manager that uses special characters on the command line to provide a more GUI-like interface. You can also have `mc` open in a specific directory by using `mc [directory path]`.
+Use the arrow keys to navigate, and `Esc + [number]` to use the options at the bottom of the screen.
 
 ### Editing
 To edit a file with these programs, type `[program name] [filename]` at the command prompt.
